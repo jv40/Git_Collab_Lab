@@ -3,4 +3,6 @@ project(Git_Collab_Lab)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(Git_Collab_Lab main.cpp)
+add_executable(Git_Collab_Lab main.cpp
+        geometry.h
+        geometry.cpp)
